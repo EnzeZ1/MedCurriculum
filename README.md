@@ -10,9 +10,9 @@ Medical VQA on endoscopic images with curriculum learning. Fine-tunes Qwen2.5-VL
 |--------|------------|---------|
 | Zero-shot | 0.0% | 1.3% |
 | Few-shot (18 examples) | 36.1% | 41.8% |
-| QLoRA SFT | 87.4% | 92.3% |
-| Rejection Sampling | 86.6% | 92.2% |
-| **Curriculum (ours)** | **87.5%** | **92.6%** |
+| QLoRA SFT (ours) | 87.4% | 92.3% |
+| Rejection Sampling (ours) | 86.6% | 92.2% |
+| **Curriculum (ours)** | **87.4%** | **92.6%** |
 
 ## Files
 
