@@ -23,7 +23,7 @@ Medical VQA on endoscopic images with curriculum learning. Fine-tunes Qwen2.5-VL
 | `mining.py` | Curriculum learning with hard example mining |
 | `eval.py` | Test set evaluation and metric computation |
 
-## Usage
+## Usage (You can adjust hyperparameters)
 
 ```bash
 # Install
