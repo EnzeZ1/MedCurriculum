@@ -41,4 +41,4 @@ python eval.py --gpus 0 --adapter_path ./checkpoints_curriculum/phase2_hard/adap
 
 ## Hardware
 
-Tested on NVIDIA 2080 Ti (11GB). Uses 4-bit NF4 quantization — ~5GB model memory.
+Tested on NVIDIA A40 (~40GB). Uses 4-bit NF4 quantization.
