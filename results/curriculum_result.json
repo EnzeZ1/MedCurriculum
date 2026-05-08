@@ -1,0 +1,14 @@
+{
+  "overall_exact_match": 0.8739410369366316,
+  "total_samples": 5902,
+  "vqa_exact_match": 0.8739410369366316,
+  "vqa_rouge_l": 0.9260583187582956,
+  "vqa_total": 5902,
+  "per_question_type": {
+    "unknown": {
+      "exact_match": 0.8739410369366316,
+      "rouge_l": 0.9260583187582956,
+      "count": 5902
+    }
+  }
+}
