@@ -2,7 +2,7 @@
 
 Medical VQA on endoscopic images with curriculum learning. Fine-tunes Qwen2.5-VL-7B on the [Kvasir-VQA](https://datasets.simula.no/kvasir-vqa/) dataset.
 
-**BMI/CS 567 Final Project — UW-Madison, Spring 2025**
+**CS 567 Final Project**
 
 ## Results
 
