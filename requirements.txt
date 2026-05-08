@@ -8,3 +8,8 @@ scipy
 scikit-learn
 matplotlib
 tqdm
+peft 
+bitsandbytes 
+rouge-score 
+torchvision 
+seaborn
