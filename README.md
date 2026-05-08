@@ -6,6 +6,17 @@ Medical VQA on endoscopic images with curriculum learning. Fine-tunes Qwen2.5-VL
 
 ## Results
 
+## Results
+
+| Method | Task | Score |
+|--------|------|-------|
+| ResNet-50 classification baseline | 5-class classification | 99.0% accuracy |
+| Zero-shot | VQA | 0.0% EM / 1.3% ROUGE-L |
+| Few-shot (18 examples) | VQA | 36.1% EM / 41.8% ROUGE-L |
+| QLoRA SFT (ours) | VQA | 87.4% EM / 92.3% ROUGE-L |
+| Rejection Sampling (ours) | VQA | 86.6% EM / 92.2% ROUGE-L |
+| **Curriculum (ours)** | VQA | **87.4% EM / 92.6% ROUGE-L** |
+
 | Method | Exact Match | ROUGE-L |
 |--------|------------|---------|
 | Zero-shot | 0.0% | 1.3% |
