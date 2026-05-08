@@ -7,7 +7,7 @@ Medical visual question answering (VQA) on endoscopic images with curriculum lea
 | Method | EM (%) | ROUGE-L (%) | Notes |
 |--------|--------|-------------|-------|
 | ResNet-50 (cls only) | 99.0 (5-class) | -- | Cannot do VQA |
-| Zero-shot Qwen2.5-VL | 0.0 | 1.3 | 27.6% contains GT |
+| Zero-shot Qwen2.5-VL | 0.0 | 1.3 | No alignment/weak knowledge |
 | Few-shot (18 examples) | 36.1 | 41.8 | No training needed |
 | QLoRA SFT (ours) | 87.4 | 92.3 | 1 epoch, 9 hours |
 | Rejection Sampling (ours) | 86.6 | 92.2 | 4 samples/question |
