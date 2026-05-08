@@ -8,22 +8,16 @@ Medical VQA on endoscopic images with curriculum learning. Fine-tunes Qwen2.5-VL
 
 ## Results
 
-| Method | Task | Score |
-|--------|------|-------|
-| ResNet-50 classification baseline | 5-class classification | 99.0% accuracy |
-| Zero-shot | VQA | 0.0% EM / 1.3% ROUGE-L |
-| Few-shot (18 examples) | VQA | 36.1% EM / 41.8% ROUGE-L |
-| QLoRA SFT (ours) | VQA | 87.4% EM / 92.3% ROUGE-L |
-| Rejection Sampling (ours) | VQA | 86.6% EM / 92.2% ROUGE-L |
-| **Curriculum (ours)** | VQA | **87.4% EM / 92.6% ROUGE-L** |
+## Results
 
-| Method | Exact Match | ROUGE-L |
-|--------|------------|---------|
-| Zero-shot | 0.0% | 1.3% |
-| Few-shot (18 examples) | 36.1% | 41.8% |
-| QLoRA SFT (ours) | 87.4% | 92.3% |
-| Rejection Sampling (ours) | 86.6% | 92.2% |
-| **Curriculum (ours)** | **87.4%** | **92.6%** |
+| Method | Task | EM / Accuracy | ROUGE-L | Notes |
+|--------|------|---------------|---------|-------|
+| ResNet-50 | 5-class classification | 99.0% | -- | Cannot do VQA |
+| Zero-shot Qwen2.5-VL | VQA | 0.0% | 1.3% | 27.6% contains GT |
+| Few-shot Qwen2.5-VL | VQA | 36.1% | 41.8% | 18 examples |
+| QLoRA SFT | VQA | 87.4% EM | 92.3% | 1 epoch, 9 hours |
+| Rejection Sampling | VQA | 86.6% | 92.2% | 4 samples/question |
+| **Curriculum** | VQA | **87.4%** | **92.6%** | Hard example mining |
 
 ## Files
 
