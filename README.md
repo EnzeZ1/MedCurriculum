@@ -12,7 +12,7 @@ Medical visual question answering (VQA) on endoscopic images with curriculum lea
 | QLoRA SFT (ours) | 87.4 | 92.3 | 1 epoch, 9 hours |
 | Rejection Sampling (ours) | 86.6 | 92.2 | 4 samples/question |
 | **Curriculum (ours)** | **87.4** | **92.6** | Hard example mining |
-
+ 
 ## Files
 
 | Path | Description |
