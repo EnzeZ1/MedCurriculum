@@ -98,4 +98,4 @@ python eval/eval.py \
 
 ## Hardware
 
-Experiments used 4-bit NF4 quantization. The main QLoRA runs were tested on an NVIDIA A40 GPU with about 40GB memory.
+The main QLoRA runs were tested on an NVIDIA A40 GPU with about 40GB memory.
