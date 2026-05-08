@@ -32,7 +32,7 @@ pip install -r requirements.txt peft bitsandbytes rouge-score torchvision seabor
 
 The scripts use the Hugging Face dataset `SimulaMet-HOST/Kvasir-VQA`. The `--data_dir` folder is used to cache the image-level train/validation/test split.
 
-## Usage
+## Usage and Examples
 
 Run the baselines:
 
